@@ -1,0 +1,36 @@
+local ScreenGui = Instance.new("ScreenGui")
+local UI = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Key = Instance.new("TextBox")
+local Start = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+UI.Name = "Wl卡密系统:D"
+UI.Parent = ScreenGui
+UI.Active = true
+UI.BackgroundColor3 = Color3.new(0, 0, 0)
+UI.BackgroundTransparency = 0
+UI.BorderSizePixel = 3
+UI.Position = UDim2.new(0.5, -150, 0.5, -67)
+UI.Size = UDim2.new(0, 260, 0, 250)
+UI.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = UI
+Title.BackgroundColor3 = Color3.new(68, 68, 68)
+Title.BackgroundTransparency = 1
+Title.BorderSizePixel = 2
+Title.Position = UDim2.new(0, 0, 0.02, 0)
+Title.Size = UDim2.new(1, 0, 0, 50)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Wl密钥系统"
+Title.TextColor3 = Color3.new(0, 0, 255)
+Title.TextScaled = true
+Title.TextSize = 14
+Title.TextWrapped = true
+
+Frame.Parent = Title
+Frame.Backgr
